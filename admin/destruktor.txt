@@ -1,0 +1,4 @@
+Baris data ke-1
+Baris data ke-2
+Baris data ke-3
+Baris data ke-4

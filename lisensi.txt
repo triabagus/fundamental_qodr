@@ -1,0 +1,34 @@
+
+Pencipta : Tria Bagus Nur Taufik 
+Negara	 : Indonesia 		
+
+Riwayat Versi :
+
+versi 12.12.18
+Ukuran : 1 MB
+Pembaruan Fitur:
+	1. Pengembangan menggunakan OOP
+	2. CRUD dan Search OOP
+	3. Penambahan MYSQL untuk email
+	4. Pagination tabel
+
+versi 13.12.18
+Ukuran : -
+Pembaharuan Fitur:
+	1. Perombakan script php menjadi OOP (all series)
+	2. Memperbaiki BUG disetiap inputan
+	3. Pengiriman lewat PHPMail
+
+versi 16.12.18
+Ukuran : -
+Pembaruan Fitur:
+	1. Perombakan script php menjadi OOP 
+	2. bug service url
+	3. captha register
+	4. profile bug and add modal 
+	5. css home menu
+	6. top web
+	7. search 
+	8. BUG formulir
+	9. BUG perkalian dan penjumlahan matrik
+	10.BUG halaman tidak ada pada url

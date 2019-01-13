@@ -1,0 +1,123 @@
+body{
+	margin:0px;
+	background-image: url('../img/walpaper/6.jpg');
+	background-size: 100%;
+	font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+	font-size: 16px;
+	overflow: hidden;
+}
+input[type=email]{
+	width:100%;
+	padding:12px 20px;
+	margin: 5px 0px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px #ccc;
+}
+input[type=text]{
+	width:100%;
+	padding:12px 20px;
+	margin: 5px 0px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px #ccc;
+}
+input[type=password]{
+	width:100%;
+	padding:12px 20px;
+	border: none;
+	margin: 5px 0px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px #ccc;
+}
+
+#content-login{
+	width:80%;
+	float: left;
+	background-color: #f1f1f1;
+	margin:150px 130px;
+	box-shadow: 0px 0px 25px #000;
+	position: relative;
+	-webkit-animation-name: example; 
+    -webkit-animation-duration: 10s; 
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.sub-content-login{
+	width: 50%;
+	height:auto;
+	float:left;
+	text-align: center;
+}
+
+.sub-data{
+	padding: 20px;
+}
+.green-gradient{
+	background-image: linear-gradient(to top left, #049264,#09584d);
+	color:#fff;
+}
+.sub-content-login .img-radius{
+	border-radius: 50px;
+}
+
+.btn-submit{
+	width: 100%;
+	margin:5px 0px ;
+	padding: 10px 0px;
+	border: none;
+	transition: all 0.3s ease;
+}
+.btn-submit:hover{
+	cursor: pointer;
+	background-color:#09584de3;
+}
+.green{
+	background-color:#09584d;
+	color: #fff;
+}
+
+@-webkit-keyframes example { 
+    0%  {
+    	opacity: 0.1;
+		-webkit-transform: scale(0.3);
+        -ms-transform: scale(0.3);
+        transform: scale(0.3);    	
+	}   
+}
+.stsmsg{
+    font-size: 16px; /* Set message font size  */
+    padding:10px 0px;
+    margin:2px 1.5px;  /* Some padding to make some more space for our text  */
+    background:#24292f;
+    color:#fff; /* Add a background color to our status message   */
+    border: 1px solid #DFDFDF; /* Add a border arround our status message   */
+    float:left;
+    width: 99%;
+}
+
+.registrasi{
+	color:#09584d;
+	text-decoration:none;
+	float: right;
+}
+.registrasi:hover{
+	color:#09584d;
+	text-decoration:underline;
+}
+@media only screen and (max-width: 840px) {
+    body{
+    	font-size: 60px;
+    }
+    #content-login{
+	width:100%;
+	margin:0px;
+	float: left;
+	margin:0px;
+	}
+	.sub-content-login{
+	width:100%;
+	float:left;
+	}
+}
